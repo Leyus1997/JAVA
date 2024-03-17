@@ -1,0 +1,17 @@
+package com.krakedev;
+/* 
+ * Muchos comentarios
+ */
+public class TestPersona {
+
+	public static void main(String[] args) {
+		//Declaro una variable de tipo persona llamada p
+		Persona p;
+		p=new Persona(); //creando el objeto Persona y guardando
+		System.out.println("nombre "+p.nombre);
+		System.out.println("edad "+p.edad);
+		System.out.println("statura "+p.estatura);
+		
+	}
+
+}
