@@ -3,7 +3,7 @@ package com.krakedev;
 public class TestAuto {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Crear e instanciar
 		Auto auto1 = new Auto();
 		Auto auto2 = new Auto();
 		
