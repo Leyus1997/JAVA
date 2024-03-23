@@ -8,20 +8,20 @@ public class TestAuto {
 		Auto auto2 = new Auto();
 		
 		//Modificar objetos
-		auto1.marca = "kia";
-		auto1.anio = 2008;
-		auto1.precio = 10500;
-		auto2.marca = "chevrolet";
-		auto2.anio = 2020;
-		auto2.precio = 20800;
+		auto1.setMarca("kia");
+		auto1.setAnio(2008);
+		auto1.setPrecio ( 10500);
+		auto2.setMarca  ("chevrolet");
+		auto2.setAnio  (2020);
+		auto2.setPrecio  (20800);
 		System.out.println("Auto 1");
-		System.out.println("Marca :"+auto1.marca);
-		System.out.println("Modelo :"+auto1.anio);
-		System.out.println("Precio :"+auto1.precio);
+		System.out.println("Marca :"+auto1.getMarca());
+		System.out.println("Modelo :"+auto1.getAnio());
+		System.out.println("Precio :"+auto1.getPrecio());
 		System.out.println("Auto 2");
-		System.out.println("Marca :"+auto2.marca);
-		System.out.println("Modelo :"+auto2.anio);
-		System.out.println("Precio :"+auto2.precio);
+		System.out.println("Marca :"+auto2.getMarca());
+		System.out.println("Modelo :"+auto2.getAnio());
+		System.out.println("Precio :"+auto2.getPrecio());
 	}
 
 }

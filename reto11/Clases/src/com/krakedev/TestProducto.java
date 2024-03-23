@@ -9,31 +9,31 @@ public class TestProducto {
 		Producto productoC=new Producto();
 		
 		//Modificar
-		productoA.nombre ="Amoxicilina";
-		productoA.descripcion ="Antibiótico utilizado para tratar infecciones bacterianas";
-		productoA.precio = 0.35;
-		productoA.stockActual =100;
-		productoB.nombre ="Paracetamol";
-		productoB.descripcion ="Analgésico y antipirético utilizado para aliviar el dolor y reducir la fiebre.";
-		productoB.precio = 0.25;
-		productoB.stockActual =200;
-		productoC.nombre ="Ibuprofeno";
-		productoC.descripcion ="Antiinflamatorio no esteroideo (AINE) utilizado para aliviar el dolor y reducir la inflamación";
-		productoC.precio = 0.55;
-		productoC.stockActual =150;
+		productoA.setNombre("Amoxicilina");
+		productoA.setDescripcion ("Antibiótico utilizado para tratar infecciones bacterianas");
+		productoA.setPrecio ( 0.35);
+		productoA.setStockActual (100);
+		productoB.setNombre ("Paracetamol");
+		productoB.setDescripcion ("Analgésico y antipirético utilizado para aliviar el dolor y reducir la fiebre.");
+		productoB.setPrecio ( 0.25);
+		productoB.setStockActual (200);
+		productoC.setNombre ("Ibuprofeno");
+		productoC.setDescripcion ("Antiinflamatorio no esteroideo (AINE) utilizado para aliviar el dolor y reducir la inflamación");
+		productoC.setPrecio ( 0.55);
+		productoC.setStockActual (150);
 		//mostrar
-		System.out.println("Nombre :"+productoA.nombre);
-		System.out.println("Descripción :"+productoA.descripcion);
-		System.out.println("Precio :"+productoA.precio);
-		System.out.println("Stock :"+productoA.stockActual);
-		System.out.println("Nombre :"+productoB.nombre);
-		System.out.println("Descripción :"+productoB.descripcion);
-		System.out.println("Precio :"+productoB.precio);
-		System.out.println("Stock :"+productoB.stockActual);
-		System.out.println("Nombre :"+productoC.nombre);
-		System.out.println("Descripción :"+productoC.descripcion);
-		System.out.println("Precio :"+productoC.precio);
-		System.out.println("Stock :"+productoC.stockActual);
+		System.out.println("Nombre :"+productoA.getNombre());
+		System.out.println("Descripción :"+productoA.getDescripcion());
+		System.out.println("Precio :"+productoA.getPrecio());
+		System.out.println("Stock :"+productoA.getStockActual());
+		System.out.println("Nombre :"+productoB.getNombre());
+		System.out.println("Descripción :"+productoB.getDescripcion());
+		System.out.println("Precio :"+productoB.getPrecio());
+		System.out.println("Stock :"+productoB.getStockActual());
+		System.out.println("Nombre :"+productoC.getNombre());
+		System.out.println("Descripción :"+productoC.getDescripcion());
+		System.out.println("Precio :"+productoC.getPrecio());
+		System.out.println("Stock :"+productoC.getStockActual());
 		
 		
 		
