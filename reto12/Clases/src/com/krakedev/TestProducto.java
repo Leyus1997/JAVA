@@ -5,8 +5,8 @@ public class TestProducto {
 	public static void main(String[] args) {
 		// crear e intanciar
 		Producto productoA=new Producto("Registrar producto 1");
-		Producto productoB=new Producto("Registrar producto 1");
-		Producto productoC=new Producto("Registrar producto 1");
+		Producto productoB=new Producto("Registrar producto 2");
+		Producto productoC=new Producto("Registrar producto 3");
 		
 		//Modificar
 		productoA.setNombre("Amoxicilina");

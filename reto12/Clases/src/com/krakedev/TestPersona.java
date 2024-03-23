@@ -9,13 +9,13 @@ public class TestPersona {
 		Persona p;
 		
 		//3.Acceder a los atributos
-		p=new Persona(""); //creando el objeto Persona y guardando
+		p=new Persona("Registrar nombre de persona"); //creando el objeto Persona y guardando
 		System.out.println("nombre "+p.getNombre());
 		System.out.println("edad "+p.getEdad());
 		System.out.println("statura "+p.getEstatura());
 		
 		//Persona 2
-		Persona p2=new Persona("");
+		Persona p2=new Persona("Registrar nombre de persona");
 		//Ingresar datos en p2
 		p2.setNombre("Angelina");
 		// Mostrar los objetos de p2
