@@ -8,7 +8,7 @@ public class TestConfiguracion {
 		MaquinaDulces maquina=new MaquinaDulces();
 		maquina.configurarMaquina("A1", "A2", "B1", "B2");
 		maquina.mostrarConfiguracion();
-		// Corregir MaquinaDulces no imprime por que sale null
+		//
 	}
 
 }

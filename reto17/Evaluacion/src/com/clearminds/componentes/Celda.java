@@ -35,8 +35,4 @@ public class Celda {
 		this.codigo = codigo;
 	}
 
-
-	
-	
-	
 }
