@@ -1,6 +1,7 @@
 package com.cmc.directorio.test;
 
- 
+import com.cmc.directorio.entidades.AdminTelefono;
+import com.cmc.directorio.entidades.Telefono;
 
 public class TestTelefono3 {
 

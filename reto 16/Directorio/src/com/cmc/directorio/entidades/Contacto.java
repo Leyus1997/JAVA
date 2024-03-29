@@ -1,6 +1,6 @@
 package com.cmc.directorio.entidades;
 
-import com.cmc.directorio.entidades.Telefono;
+
 
 public class Contacto {
 	private String apellido;
