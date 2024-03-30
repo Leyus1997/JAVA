@@ -12,5 +12,6 @@ public class TestCargarProducto {
 		maquina.cargarProducto(producto, "B1", 4);
 		
 		maquina.mostrarProductos();
+		
 	}
 }

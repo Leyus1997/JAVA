@@ -1,6 +1,6 @@
 package com.clearminds.test;
 
-import com.clearminds.componentes.Celda;
+
 import com.clearminds.componentes.Producto;
 import com.clearminds.maquina.MaquinaDulces;
 

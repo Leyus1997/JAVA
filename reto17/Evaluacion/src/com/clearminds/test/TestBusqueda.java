@@ -15,7 +15,7 @@ public class TestBusqueda {
 			System.out.println("no existe la celda");
 		}
 		
-		//Corregir no ingresa null
+		
 	}
 
 }

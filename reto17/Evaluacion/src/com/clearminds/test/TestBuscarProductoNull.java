@@ -13,7 +13,11 @@ public class TestBuscarProductoNull {
 		
 		Producto prod=maquina.buscarProductoEnCelda("A1");
 		System.out.println("Producto encontrado:"+prod.getNombre());
-		
+		//la línea 15 de TestBuscarProducto produce error por que esta en null
+		//EN la maquina de dulces en la línea 80 esta el erro ya que 
+		//A1 no tien registrados datos de producto
+		//Se registro en los datos en B1 
+		// Y la variable que esta null es nombre del producto A1
 		
 		
 		

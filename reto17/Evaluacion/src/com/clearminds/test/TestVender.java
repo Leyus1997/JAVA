@@ -15,10 +15,12 @@ public class TestVender {
 		Producto producto2=new Producto("D456","Doritos",0.70);
 		maquina.cargarProducto(producto2, "A1", 6);
 		
+				
 		maquina.vender("A1");
 		maquina.vender("B1");
 		
 		maquina.mostrarProductos();
+		System.out.println("Saldo :"+maquina.getSaldo());
 
 	}
 
