@@ -27,8 +27,8 @@ public class TestBuscarMenores {
         
         maquina.mostrarProductos();
         
-        MaquinaDulces menores=new MaquinaDulces();
-        ArrayList<Producto> preciosMenores = menores.buscarMenores(0.40);
+       
+        ArrayList<Producto> preciosMenores = maquina.buscarMenores(0.40);
         System.out.println("menores 0.40: "+preciosMenores.size());
 		
 		
